@@ -27,3 +27,11 @@ export const clearDisplay = () => {
 export const updateMemory = () => {
     return({type: UPDATE_MEMORY})
 }
+
+export const applyMemory = (number) => {
+    return({type:APPLY_MEMORY, payload:number});
+}
+
+export const clearMemory = () => {
+    return({type: CLEAR_MEMORY})
+}
